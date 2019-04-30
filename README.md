@@ -70,3 +70,11 @@ yum install bc
 ```
    make rpm-pkg
 ```
+## 4. Установка ядра
+
+После того как ядро собралось в директории **~/rpmbuild/RPMS/x86_64/** появятся 3 файла 
+
+..*kernel-5.0.10-1.x86_64.rpm
+..*kernel-devel-5.0.10-1.x86_64.rpm  
+..*kernel-headers-5.0.10-1.x86_64.rpm
+
