@@ -16,6 +16,16 @@
    yum install ncurses-devel
    yum install hmaccalc zlib-devel binutils-devel elfutils-libelf-devel
 ```
+Отсутствие следующих пакетов у меня вызывали ошибки при сборке
+**_fatal error: openssl/opensslv.h: No such file or directory_**
+и
+**_/bin/sh: 1: bc: not found_**
+Установка:
+```
+yum install openssl-devel
+yum install bc
+```
+
 #### Переходим в директорию для сборки и загружаем исходники ядра.
 ```
    cd /usr/src/kernels
