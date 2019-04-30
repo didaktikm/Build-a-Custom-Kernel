@@ -82,3 +82,5 @@ yum install bc
 ```
    rpm -iUv ~/rpmbuild/RPMS/x86_64/*.rpm
 ```
+
+Дополнительные материалы: [Ядерная физика для домохозяек v.3](http://www.unix-lab.org/posts/kernel-v3/)
