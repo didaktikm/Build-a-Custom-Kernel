@@ -16,7 +16,7 @@
    yum install ncurses-devel
    yum install hmaccalc zlib-devel binutils-devel elfutils-libelf-devel
 ```
-Отсутствие следующих пакетов у меня вызывали ошибки при сборке:
+Отсутствие следующих пакетов у меня вызывало ошибки при сборке:
 
 **_fatal error: openssl/opensslv.h: No such file or directory_**
 
