@@ -19,6 +19,7 @@
 ### Переходим в директорию для сборки и загружаем исходники ядра.
 ```
    cd /usr/src/kernels
-   git clone https://github.com/torvalds/linux
 ```   
-   
+Переходим на [www.kernel.org](https://www.kernel.org) нажимаем правой клавишей на *Latest Stable Kernel* и копируем адрес ссылки
+
+![alt-текст](https://www.kernel.org/theme/images/icons/downloadarrow_small.png "Latest Stable Kernel")
