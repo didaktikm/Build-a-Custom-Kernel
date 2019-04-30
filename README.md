@@ -22,4 +22,8 @@
 ```   
 Переходим на [www.kernel.org](https://www.kernel.org) нажимаем правой клавишей на *Latest Stable Kernel* и копируем адрес ссылки
 
-![alt-текст](https://www.kernel.org/theme/images/icons/downloadarrow_small.png "Latest Stable Kernel")
+Загружаем исходники ядра
+```
+   wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.0.10.tar.xz
+```
+
