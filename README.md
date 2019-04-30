@@ -18,7 +18,6 @@
 ```
 Отсутствие следующих пакетов у меня вызывали ошибки при сборке
 **_fatal error: openssl/opensslv.h: No such file or directory_**
-и
 **_/bin/sh: 1: bc: not found_**
 Установка:
 ```
