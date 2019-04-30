@@ -20,10 +20,13 @@
 ```
    cd /usr/src/kernels
 ```   
-Переходим на [www.kernel.org](https://www.kernel.org) нажимаем правой клавишей на *Latest Stable Kernel* и копируем адрес ссылки
+#### Переходим на [www.kernel.org](https://www.kernel.org) нажимаем правой клавишей на *Latest Stable Kernel* и копируем адрес ссылки
 
-Загружаем исходники ядра
+#### Загружаем исходники ядра
 ```
    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.0.10.tar.xz
 ```
-
+#### Распаковываем архив с помощью утилиты tar:
+```
+   tar xf linux*
+```   
